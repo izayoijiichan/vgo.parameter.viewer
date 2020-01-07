@@ -25,8 +25,8 @@ Download exe and place it anywhere.
 
 ## Specification Version
 - glTF JSON Schema: [2.0](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0/schema)
-- VGO JSON Schema: [0.1](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.1/schema)
-- UniVGO: v0.3.0 (1 Jan, 2020)
+- VGO JSON Schema: [0.2](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.2/schema)
+- UniVGO: v0.4.0 (8 Jan, 2020)
 
 ## Implementation
 - glTF
@@ -42,6 +42,7 @@ Download exe and place it anywhere.
   - nodes
     - extensions
       - VGO_nodes
+        - gameObject
         - colliders
           - collider
             - physicMaterial
