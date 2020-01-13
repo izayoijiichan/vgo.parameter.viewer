@@ -25,8 +25,8 @@ Download exe and place it anywhere.
 
 ## Specification Version
 - glTF JSON Schema: [2.0](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0/schema)
-- VGO JSON Schema: [0.2](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.2/schema)
-- UniVGO: v0.4.0 (8 Jan, 2020)
+- VGO JSON Schema: [0.3](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.3/schema)
+- UniVGO: v0.5.0 (14 Jan, 2020)
 
 ## Implementation
 - glTF
@@ -47,6 +47,7 @@ Download exe and place it anywhere.
           - collider
             - physicMaterial
         - rigidbody
+        - light
         - right
   - samplers
   - scene
