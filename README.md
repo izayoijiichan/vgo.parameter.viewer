@@ -4,6 +4,7 @@ This is a viewer that displays the parameters in the VGO file.
 ![image1](https://github.com/izayoijiichan/vgo.parameter.viewer/blob/master/images/screenshot_1.png)
 ![image2](https://github.com/izayoijiichan/vgo.parameter.viewer/blob/master/images/screenshot_2.png)
 ![image3](https://github.com/izayoijiichan/vgo.parameter.viewer/blob/master/images/screenshot_3.png)
+![image4](https://github.com/izayoijiichan/vgo.parameter.viewer/blob/master/images/screenshot_4.png)
 
 ## Description
 Reads the specified VGO file and displays glTF and VGO extended information.
@@ -25,8 +26,8 @@ Download exe and place it anywhere.
 
 ## Specification Version
 - glTF JSON Schema: [2.0](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0/schema)
-- VGO JSON Schema: [0.3](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.3/schema)
-- UniVGO: v0.5.0 (14 Jan, 2020)
+- VGO JSON Schema: [0.4](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.4/schema)
+- VRMC_materials_mtoon: [1.0](https://github.com/vrm-c/vrm-specification/tree/master/specification/VRMC_materials_mtoon-1.0_draft)
 
 ## Implementation
 - glTF
@@ -38,6 +39,10 @@ Download exe and place it anywhere.
   - cameras (unimplemented)
   - images
   - materials
+    - extensions
+      - KHR_materials_unlit
+      - VGO_materials
+      - VRMC_materials_mtoon
   - meshes
   - nodes
     - extensions
